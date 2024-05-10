@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "traffic-stop-icon-template-black-color-editable-traffic-stop-icon-symbol-flat-illustration-for-graphic-and-web-design-free-vector.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
