@@ -14,6 +14,14 @@
 		86BAD1DC2BEB513F000864F6 /* HabitTracker2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BAD1DB2BEB513F000864F6 /* HabitTracker2Tests.swift */; };
 		86BAD1E62BEB513F000864F6 /* HabitTracker2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BAD1E52BEB513F000864F6 /* HabitTracker2UITests.swift */; };
 		86BAD1E82BEB513F000864F6 /* HabitTracker2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BAD1E72BEB513F000864F6 /* HabitTracker2UITestsLaunchTests.swift */; };
+		86BAD1F62BEB5638000864F6 /* LandingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BAD1F52BEB5638000864F6 /* LandingScreen.swift */; };
+		86BAD1F82BEB5B9F000864F6 /* TasksData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BAD1F72BEB5B9F000864F6 /* TasksData.swift */; };
+		86BAD1FA2BEB5BE7000864F6 /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BAD1F92BEB5BE7000864F6 /* Tasks.swift */; };
+		86BAD1FC2BEB6E08000864F6 /* TaskCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BAD1FB2BEB6E08000864F6 /* TaskCreationView.swift */; };
+		86BAD1FE2BEB752A000864F6 /* ImageSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BAD1FD2BEB752A000864F6 /* ImageSelectionView.swift */; };
+		86BAD2002BEDF828000864F6 /* MonthlyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BAD1FF2BEDF828000864F6 /* MonthlyView.swift */; };
+		86BAD2022BEE4717000864F6 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BAD2012BEE4717000864F6 /* NotificationManager.swift */; };
+		86BAD2042BEE47EB000864F6 /* ScheduleNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BAD2032BEE47EB000864F6 /* ScheduleNotification.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,14 @@
 		86BAD1E12BEB513F000864F6 /* HabitTracker2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabitTracker2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86BAD1E52BEB513F000864F6 /* HabitTracker2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTracker2UITests.swift; sourceTree = "<group>"; };
 		86BAD1E72BEB513F000864F6 /* HabitTracker2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTracker2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		86BAD1F52BEB5638000864F6 /* LandingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingScreen.swift; sourceTree = "<group>"; };
+		86BAD1F72BEB5B9F000864F6 /* TasksData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksData.swift; sourceTree = "<group>"; };
+		86BAD1F92BEB5BE7000864F6 /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
+		86BAD1FB2BEB6E08000864F6 /* TaskCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCreationView.swift; sourceTree = "<group>"; };
+		86BAD1FD2BEB752A000864F6 /* ImageSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectionView.swift; sourceTree = "<group>"; };
+		86BAD1FF2BEDF828000864F6 /* MonthlyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyView.swift; sourceTree = "<group>"; };
+		86BAD2012BEE4717000864F6 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		86BAD2032BEE47EB000864F6 /* ScheduleNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleNotification.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +114,14 @@
 				86BAD1CC2BEB513E000864F6 /* ContentView.swift */,
 				86BAD1CE2BEB513F000864F6 /* Assets.xcassets */,
 				86BAD1D02BEB513F000864F6 /* Preview Content */,
+				86BAD1F52BEB5638000864F6 /* LandingScreen.swift */,
+				86BAD1F72BEB5B9F000864F6 /* TasksData.swift */,
+				86BAD1F92BEB5BE7000864F6 /* Tasks.swift */,
+				86BAD1FB2BEB6E08000864F6 /* TaskCreationView.swift */,
+				86BAD1FD2BEB752A000864F6 /* ImageSelectionView.swift */,
+				86BAD1FF2BEDF828000864F6 /* MonthlyView.swift */,
+				86BAD2012BEE4717000864F6 /* NotificationManager.swift */,
+				86BAD2032BEE47EB000864F6 /* ScheduleNotification.swift */,
 			);
 			path = HabitTracker2;
 			sourceTree = "<group>";
@@ -258,6 +282,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				86BAD1CD2BEB513E000864F6 /* ContentView.swift in Sources */,
+				86BAD1F62BEB5638000864F6 /* LandingScreen.swift in Sources */,
+				86BAD2002BEDF828000864F6 /* MonthlyView.swift in Sources */,
+				86BAD2042BEE47EB000864F6 /* ScheduleNotification.swift in Sources */,
+				86BAD2022BEE4717000864F6 /* NotificationManager.swift in Sources */,
+				86BAD1FC2BEB6E08000864F6 /* TaskCreationView.swift in Sources */,
+				86BAD1F82BEB5B9F000864F6 /* TasksData.swift in Sources */,
+				86BAD1FE2BEB752A000864F6 /* ImageSelectionView.swift in Sources */,
+				86BAD1FA2BEB5BE7000864F6 /* Tasks.swift in Sources */,
 				86BAD1CB2BEB513E000864F6 /* HabitTracker2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
